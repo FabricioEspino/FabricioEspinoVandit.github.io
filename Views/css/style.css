@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;900&display=swap');
+/* -------Reset--------- */
+
+html{
+    font-size: 62.5%;
+}
+h1,
+h2,
+h3,
+h4,
+h6
+{
+    font-family: 'Inter', sans-serif;
+   
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+*{
+    font-family: 'Inter', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+/*--Index----------------------------------------- */
+#indexHeader {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0,0,0,0);
+    justify-content: space-between;
+}
+
+#indexNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#indexMain {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+/* IMAGENES */
+.imgPrincipal{
+     width: 100%;
+     height:400px;
+     background-image: url(../../img/header.jpg);
+     background-size: cover;
+}
+.fraseimgprincipal{
+    
+    color: rgb(161, 28, 28)
+
+}
+.navButtons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+.navAnchor{
+    text-decoration: none;
+}
+.navLink {
+    margin:3px;
+}
+/*--Logo---------------------------------------------- */
+.navLogo{
+    height: 80px;
+}
+/*--Main Page---------------------------------------------*/
+
+.slogan{
+    margin-top: 5px;
+    /* font-size: 6.5rem;
+    text-align: center;
+    color: rgba(122, 121, 121, 1);
+    font-weight: 600;
+    justify-content: flex-start; */
+
+
+}
+#indexFooter {
+    background-image: url(../../img/footer.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.P1index{
+    
+
+}
+.Vandit{
+    
+    color: rgba(122, 121, 121, 1);
+    
+}
+.P2history{
+    
+
+}
+.pieDeFoto{
+    
+
+}
+.PCopyright{
+    position: absolute;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    justify-content: center;
+    left: 15%;
+
+
+}
+.socialmedia{
+    
+}
+
+.instagram, .facebook, .youtube, .spotify {
+    height: 30px;
+}
+
+/* class="segundaimagen" src="img/footer.jpg" alt="imagen footer" */
+/*--Botonera------------------------------------------*/
+/* doubles */
+/* families */
+/* trailers */
+/* all terrains */
+/* sign up */
+/* login */
