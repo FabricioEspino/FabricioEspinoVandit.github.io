@@ -48,14 +48,19 @@ p{
 /* IMAGENES */
 .imgPrincipal{
      width: 100%;
-     height:400px;
+     height:100vh;
      background-image: url(../../img/header.jpg);
      background-size: cover;
      top: 0;
 }
 .fraseimgprincipal{
     
-    color: rgb(161, 28, 28)
+    color: rgb(255, 252, 252);
+    margin-top: 70vh;
+    margin-left: 5vh;
+    font-size: 6.5rem;
+    display: flex;
+    justify-content: flex-start;
 
 }
 .navButtons{
@@ -78,12 +83,11 @@ p{
 /*--Main Page---------------------------------------------*/
 
 .slogan{
+    font-size: 4.5rem;
     margin-top: 5px;
-    /* font-size: 6.5rem;
-    text-align: center;
     color: rgba(122, 121, 121, 1);
-    font-weight: 600;
-    justify-content: flex-start; */
+    text-align: center;
+    
 
 
 }
@@ -91,49 +95,236 @@ p{
     background-image: url(../../img/footer.jpg);
     background-size: cover;
     width: 100%;
-    height: 400px;
+     height:100vh;
+  
+    
 }
 .P1index{
-    
+    font-size: 3.0rem;
+    color: rgba(122, 121, 121, 1);
+    text-align: center;
+    font-weight: 200;
 
 }
 .Vandit{
-    
+    font-size: 4.5rem;
     color: rgba(122, 121, 121, 1);
+    text-align: center;
     
 }
 .P2history{
+    font-size: 3.0rem;
+    color: rgba(122, 121, 121, 1);
+    text-align: center;
+    font-weight: 200;
+
     
 
 }
 .pieDeFoto{
-    
+    font-size: 3.0rem;
+    color: white;
+    font-weight: 300;
+    margin-top: 50vh;
+    text-align: center;
 
 }
 .PCopyright{
-    position: absolute;
     font-size: 1.5rem;
     text-align: center;
     color: rgb(255, 255, 255);
     font-weight: 100;
-    justify-content: center;
-    left: 15%;
+    margin-top: 30vh;
+    
+    
 
 
 }
 .socialmedia{
+   flex-direction: row;
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   margin-bottom: 5vh;
+   
+
+   
     
 }
 
 .instagram, .facebook, .youtube, .spotify {
-    height: 30px;
+    height: 50px;
 }
+/* ====Doubles======================= */
+.imgDouble{
+    width: 100%;
+    height:100vh;
+    background-image: url(../../img/doubles.jpg);
+    background-size: cover;
+    top: 0;
+}
+.FraseImgDouble{
+    color: rgb(255, 252, 252);
+    margin-top: 70vh;
+    margin-left: 5vh;
+    font-size: 15vh;
 
-/* class="segundaimagen" src="img/footer.jpg" alt="imagen footer" */
-/*--Botonera------------------------------------------*/
-/* doubles */
-/* families */
-/* trailers */
-/* all terrains */
-/* sign up */
-/* login */
+}
+.tableDouble{
+    font-size: 3rem;
+    color: rgba(122, 121, 121, 1);
+    text-align: center;
+    margin-bottom: 2vh;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    
+}
+.PCopyrightDouble{
+    font-size: 2.5re;
+    color: rgba(122, 121, 121, 1);
+    margin: auto;
+    text-align: center;
+}
+/* =====Families======================== */
+.imgFamilie{
+    width: 100%;
+    height:100vh;
+    background-image: url(../../img/families.jpg);
+    background-size: cover;
+    top: 0;
+}
+.FraseImgFamilie{
+    color: rgb(255, 252, 252);
+    margin-top: 70vh;
+    margin-left: 5vh;
+    font-size: 15vh;
+}
+.tableFamilie{
+    font-size: 3rem;
+    color: rgba(122, 121, 121, 1);
+    text-align: center;
+    margin-bottom: 2vh;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+.PCopyrightFamilies{
+    font-size: 2.5re;
+    color: rgba(122, 121, 121, 1);
+    margin: auto;
+    text-align: center;
+}
+/* ======All Terrains====================== */
+.imgAllTerrains{
+    width: 100%;
+    height:100vh;
+    background-image: url(../../img/Allterrains.jpg);
+    background-size: cover;
+    top: 0;
+}
+.FraseImgAllTerrains{
+    color: rgb(255, 252, 252);
+    margin-top: 70vh;
+    margin-left: 5vh;
+    font-size: 15vh;
+}
+.tableAllTerrains{
+    font-size: 3rem;
+    color: rgba(122, 121, 121, 1);
+    text-align: center;
+    margin-bottom: 2vh;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+.PCopyrightAllTerrains{
+    font-size: 2.5re;
+    color: rgba(122, 121, 121, 1);
+    margin: auto;
+    text-align: center;
+}
+/* ===== Trailers============================== */
+.imgTrailers{
+    width: 100%;
+    height:100vh;
+    background-image: url(../../img/Trailers.jpg);
+    background-size: cover;
+    top: 0;
+}
+.FraseImgTrailers{
+    color: rgb(255, 252, 252);
+    margin-top: 75vh;
+    margin-left: 5vh;
+    font-size: 15vh;
+}
+.tableTrailers{
+    font-size: 3rem;
+    color: rgba(122, 121, 121, 1);
+    text-align: center;
+    margin-bottom: 2vh;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+.PCopyrightTrailers{
+    font-size: 2.5re;
+    color: rgba(122, 121, 121, 1);
+    margin: auto;
+    text-align: center;
+}
+/* ==== Sign Up=============================== */
+.imgSignUp{
+    width: 100%;
+    height:130vh;
+    background-image: url(../../img/vanfondo.jpg);
+    background-size: cover;
+    top: 0;
+}
+.FraseImgSignUp{
+    color: rgb(255, 252, 252);
+    margin-top: 75vh;
+    margin-left: 5vh;
+    font-size: 15vh;
+}
+.FormSignUp{
+    font-size: 1.5rem;
+    color: rgba(122, 121, 121, 1);
+    margin-top: 3px;
+    margin-bottom: 2vh;  
+}
+.PCopyrightSignUp{
+    font-size: 2.5re;
+    color: rgba(122, 121, 121, 1);
+    margin: auto;
+    text-align: center;
+}
+/* ====Login================================= */
+.imgLogin{
+    width: 100%;
+    height:130vh;
+    background-image: url(../../img/vanfondo.jpg);
+    background-size: cover;
+    top: 0;
+}
+.FraseImgLogin{
+    color: rgb(255, 252, 252);
+    margin-top: 75vh;
+    margin-left: 5vh;
+    font-size: 15vh;
+}
+.FormLogin{
+    font-size: 1.5rem;
+    color: rgba(122, 121, 121, 1);
+    margin-top: 3px;
+    margin-bottom: 2vh;  
+}
+.PCopyrightLogin{
+    font-size: 2.5re;
+    color: rgba(122, 121, 121, 1);
+    margin: auto;
+    text-align: center;
+}
+.MapsLogin{
+    width: 100%;
+}

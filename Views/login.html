@@ -8,41 +8,29 @@
     <link rel="shortcut icon" href="../img/vanditlogo.png">
     <link rel="stylesheet" href="../Views/css/style.css">
 </head>
-<body class="grid-layout">
-    <img class="ImgPrincipal imggrid" src="../img/vanfondo.jpg" alt="imagen de sign">
-    <nav>
-        <a href="../index.html">
-        <img class="PositionLogo logogrid" src="../img/vanditlogo.png" alt="logo de vandit">
-    </a>
-    <ul class="Buttons">
-        <li>
-            <a href="Doubles.html">Double</a>
-        </li>
-        <li>
-            <a href="Families.html">Families</a>
-        </li>
-        <li>
-            <a href="Allterrains.html">All terrains</a>
-        </li>
-        <li>
-            <a href="Trailers.html">Trailers</a>
-        </li>
-        <li>
-            <a href="Signup.html">sign up</a>
-        </li>
-        <li>
-            <a href="login.html">login</a>
-        </li>
-    </ul>
-    </nav>
-    <header>
-        <h1 class="h1Login">Login</h1>  
+<body>
+    <header id="indexHeader">    
+        <a href="../index.html" >
+            <img class="navLogo" src="../img/vanditlogo.png" alt="PositionLogo">
+        </a>
+        <nav id="indexNav">
+            <ul class="navButtons">
+                    <li class="navLink"><a class="navAnchor" href="Doubles.html">Double</a></li>
+                    <li class="navLink"><a class="navAnchor" href="Families.html">Families</a></li>
+                    <li class="navLink"><a class="navAnchor" href="Allterrains.html">All terrains</a></li>
+                    <li class="navLink"><a class="navAnchor" href="Trailers.html">Trailers</a></li>
+                    <li class="navLink"><a class="navAnchor" href="signup.html">sign up</a></li>
+                    <li class="navLink"><a class="navAnchor" href="login.html">login</a></li>
+            </ul>  
+        </nav>  
     </header>
-    <main class="NavLogin">
-        <!--start form-->
-        <section>
+    <main id="indexMain">
+    <div class="imgLogin">
+        <h1 class="FraseImgLogin">Login
+        </h1> 
+    </div>
             <form action="envio.php">
-         <fieldset>
+         <fieldset class="FormLogin">
              <legend>Registration form</legend> 
              <label for="name">Name</label>
              <input type="text" id="name" placeholder="type your name here">
@@ -53,7 +41,7 @@
              <label for="email">Email</label>
              <input type="email" id="email" placeholder="and your email here">
          </fieldset>
-         <fieldset>
+         <fieldset class="FormLogin">
              <legend>Select your vehicle</legend>
              <label for="doublevans">Doublevans</label>
              <input type="checkbox" id="doublevans" value="doublevans">
@@ -68,12 +56,12 @@
              <input type="checkbox" id="trailers" value="trailers">
              
          </fieldset>
-        <fieldset>
+        <fieldset class="FormLogin">
             <legend>Info & offers</legend> 
             <label for="information">information & offers</label>
             <input type="checkbox" id="information" value="information">
         </fieldset>
-        <fieldset>
+        <fieldset class="FormLogin">
             <legend>Pick up</legend>
             <label for="store">Pick up on site</label>
             <input type="radio" id="store" name="pickup" value="store">
@@ -87,7 +75,7 @@
             <option value="newzealand">New Zealand</option>
         </select>
         </fieldset>
-        <label for="message">Message  
+        <label for="message" class="FormLogin">Message  
         </label>
         <br>
         <textarea name="" id="message" cols="30" rows="10"></textarea>
@@ -97,14 +85,12 @@
             </form>
         </main>
         </section>
-        <footer>
-                <p class="Ppiedefoto"> Find the perfect campervan, motorhome or caravan to hire for your next holiday.
-                    Help & support Call 0458015990
-                <p>    
-                <p class="PCopyright">  ©copyright 2022 Vandit. All rights reserved terms and conditios
-                </p>
+        <footer> 
+                
         </footer>
-            <iframe class="iframelogin mapsgrid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3522.955461992293!2d153.4270572!3d-27.995258999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91056e29af7aaf%3A0x977c878c3900a985!2sCapistrano%2C%206%20Pine%20Ave%2C%20Surfers%20Paradise%20QLD%204217!5e0!3m2!1ses-419!2sau!4v1653621165539!5m2!1ses-419!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>   
+            <iframe class="MapsLogin" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3522.955461992293!2d153.4270572!3d-27.995258999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91056e29af7aaf%3A0x977c878c3900a985!2sCapistrano%2C%206%20Pine%20Ave%2C%20Surfers%20Paradise%20QLD%204217!5e0!3m2!1ses-419!2sau!4v1653621165539!5m2!1ses-419!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe> 
+            <p class="PCopyrightLogin">  ©copyright 2022 Vandit. All rights reserved terms and conditios
+            </p>  
 </body>
 </html>
