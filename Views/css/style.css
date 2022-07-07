@@ -59,8 +59,6 @@ p{
     margin-top: 70vh;
     margin-left: 5vh;
     font-size: 6.5rem;
-    display: flex;
-    justify-content: flex-start;
 
 }
 .navButtons{
@@ -70,6 +68,9 @@ p{
     list-style: none;
     
 }
+.bg-naranja300{
+    background-color: #fadc9f;
+}
 .navAnchor{
     text-decoration: none;
 }
@@ -78,7 +79,7 @@ p{
 }
 /*--Logo---------------------------------------------- */
 .navLogo{
-    height: 80px;
+    height: 50px;
 }
 /*--Main Page---------------------------------------------*/
 
@@ -327,4 +328,84 @@ p{
 }
 .MapsLogin{
     width: 100%;
+}
+.DesingNavbar{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+/* ==== RESPONSIVE ================ */
+@media (max-width: 480px) {
+    
+    
+        
+
+       
+}
+
+
+
+
+/* =======Boostrap========= */
+/* carousel */
+.TextCarousel{
+    color: rgb(255, 252, 252);
+    text-align: center;
+    font-size: 10.5rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+
+}
+.PCarousel{
+    color: rgb(255, 252, 252);
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+.TextCenterCard{
+    color: rgb(90, 128, 89);
+     text-align: center;
+    font-size: 6.5rem;
+    font-weight: 600;
+
+}
+.TittleCard{
+    color: rgb(90, 128, 89);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+.ParrCard{
+    color: rgb(90, 128, 89);
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: 'Inter', sans-serif;
+
+}
+.ButtonChN{
+    color: rgb(255, 255, 255);
+    background-color: rgb(90, 128, 89);;
+    font-weight: 600;
+}
+.ButtonForm{
+    color: rgb(255, 255, 255);
+    background-color: rgb(90, 128, 89);;
+    font-weight: 400;
+
+}
+.TextForm{
+    font-size: 2.5rem;
+    color: rgb(90, 128, 89);
+    font-weight: 400;
+
+}
+.ColorForm{
+    color: rgb(90, 128, 89);
+
+}
+.PCopyrightBoostrap{
+    font-size: 2.5re;
+    color: rgb(90, 128, 89);
+    margin: auto;
+    text-align: center;
 }
