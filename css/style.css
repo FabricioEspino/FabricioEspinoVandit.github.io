@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;900&display=swap');
+/* -------Reset--------- */
+
+html{
+    font-size: 62.5%;
+}
+h1,
+h2,
+h3,
+h4,
+h6
+{
+    font-family: 'Inter', sans-serif;
+   
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+*{
+    font-family: 'Inter', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+/*--Index----------------------------------------- */
+#indexHeader {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.089);
+    justify-content: space-between;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+
+#indexNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#indexMain {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+/* IMAGENES */
+.imgPrincipal{
+     width: 100%;
+     height:100vh;
+     background-image: url(../../img/header.jpg);
+     background-size: cover;
+     top: 0;
+}
+.fraseimgprincipal{
+    
+    color: rgb(255, 252, 252);
+    margin-top: 70vh;
+    margin-left: 5vh;
+    font-size: 6.5rem;
+
+}
+.navButtons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+.bg-naranja300{
+    background-color: #fadc9f;
+}
+.navAnchor{
+    text-decoration: none;
+}
+.navLink {
+    margin:3px;
+}
+/*--Logo---------------------------------------------- */
+.navLogo{
+    height: 50px;
+}
+/*--Main Page---------------------------------------------*/
+
+.slogan{
+    font-size: 4.5rem;
+    margin-top: 5px;
+    color: rgba(122, 121, 121, 1);
+    text-align: center;
+    
+
+
+}
+#indexFooter {
+    background-image: url(../../img/footer.jpg);
+    background-size: cover;
+    width: 100%;
+     height:100vh;
+  
+    
+}
+.P1index{
+    font-size: 3.0rem;
+    color: rgba(122, 121, 121, 1);
+    text-align: center;
+    font-weight: 200;
+
+}
+.Vandit{
+    font-size: 4.5rem;
+    color: rgba(122, 121, 121, 1);
+    text-align: center;
+    
+}
+.P2history{
+    font-size: 3.0rem;
+    color: rgba(122, 121, 121, 1);
+    text-align: center;
+    font-weight: 200;
+
+    
+
+}
+.pieDeFoto{
+    font-size: 3.0rem;
+    color: white;
+    font-weight: 300;
+    margin-top: 50vh;
+    text-align: center;
+
+}
+.PCopyright{
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    margin-top: 30vh;
+    
+    
+
+
+}
+.socialmedia{
+   flex-direction: row;
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   margin-bottom: 5vh;
+   
+
+   
+    
+}
+
+.instagram, .facebook, .youtube, .spotify {
+    height: 50px;
+}
+/* ====Doubles======================= */
+.imgDouble{
+    width: 100%;
+    height:100vh;
+    background-image: url(../../img/doubles.jpg);
+    background-size: cover;
+    top: 0;
+}
+.FraseImgDouble{
+    color: rgb(255, 252, 252);
+    margin-top: 70vh;
+    margin-left: 5vh;
+    font-size: 15vh;
+
+}
+.tableDouble{
+    font-size: 3rem;
+    color: rgba(122, 121, 121, 1);
+    text-align: center;
+    margin-bottom: 2vh;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    
+}
+.PCopyrightDouble{
+    font-size: 2.5re;
+    color: rgba(122, 121, 121, 1);
+    margin: auto;
+    text-align: center;
+}
+/* =====Families======================== */
+.imgFamilie{
+    width: 100%;
+    height:100vh;
+    background-image: url(../../img/families.jpg);
+    background-size: cover;
+    top: 0;
+}
+.FraseImgFamilie{
+    color: rgb(255, 252, 252);
+    margin-top: 70vh;
+    margin-left: 5vh;
+    font-size: 15vh;
+}
+.tableFamilie{
+    font-size: 3rem;
+    color: rgba(122, 121, 121, 1);
+    text-align: center;
+    margin-bottom: 2vh;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+.PCopyrightFamilies{
+    font-size: 2.5re;
+    color: rgba(122, 121, 121, 1);
+    margin: auto;
+    text-align: center;
+}
+/* ======All Terrains====================== */
+.imgAllTerrains{
+    width: 100%;
+    height:100vh;
+    background-image: url(../../img/Allterrains.jpg);
+    background-size: cover;
+    top: 0;
+}
+.FraseImgAllTerrains{
+    color: rgb(255, 252, 252);
+    margin-top: 70vh;
+    margin-left: 5vh;
+    font-size: 15vh;
+}
+.tableAllTerrains{
+    font-size: 3rem;
+    color: rgba(122, 121, 121, 1);
+    text-align: center;
+    margin-bottom: 2vh;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+.PCopyrightAllTerrains{
+    font-size: 2.5re;
+    color: rgba(122, 121, 121, 1);
+    margin: auto;
+    text-align: center;
+}
+/* ===== Trailers============================== */
+.imgTrailers{
+    width: 100%;
+    height:100vh;
+    background-image: url(../../img/Trailers.jpg);
+    background-size: cover;
+    top: 0;
+}
+.FraseImgTrailers{
+    color: rgb(255, 252, 252);
+    margin-top: 75vh;
+    margin-left: 5vh;
+    font-size: 15vh;
+}
+.tableTrailers{
+    font-size: 3rem;
+    color: rgba(122, 121, 121, 1);
+    text-align: center;
+    margin-bottom: 2vh;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+.PCopyrightTrailers{
+    font-size: 2.5re;
+    color: rgba(122, 121, 121, 1);
+    margin: auto;
+    text-align: center;
+}
+/* ==== Sign Up=============================== */
+.imgSignUp{
+    width: 100%;
+    height:130vh;
+    background-image: url(../../img/vanfondo.jpg);
+    background-size: cover;
+    top: 0;
+}
+.FraseImgSignUp{
+    color: rgb(255, 252, 252);
+    margin-top: 75vh;
+    margin-left: 5vh;
+    font-size: 15vh;
+}
+.FormSignUp{
+    font-size: 1.5rem;
+    color: rgba(122, 121, 121, 1);
+    margin-top: 3px;
+    margin-bottom: 2vh;  
+}
+.PCopyrightSignUp{
+    font-size: 2.5re;
+    color: rgba(122, 121, 121, 1);
+    margin: auto;
+    text-align: center;
+}
+/* ====Login================================= */
+.imgLogin{
+    width: 100%;
+    height:130vh;
+    background-image: url(../../img/vanfondo.jpg);
+    background-size: cover;
+    top: 0;
+}
+.FraseImgLogin{
+    color: rgb(255, 252, 252);
+    margin-top: 75vh;
+    margin-left: 5vh;
+    font-size: 15vh;
+}
+.FormLogin{
+    font-size: 1.5rem;
+    color: rgba(122, 121, 121, 1);
+    margin-top: 3px;
+    margin-bottom: 2vh;  
+}
+.PCopyrightLogin{
+    font-size: 2.5re;
+    color: rgba(122, 121, 121, 1);
+    margin: auto;
+    text-align: center;
+}
+.MapsLogin{
+    width: 100%;
+}
+.DesingNavbar{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+/* ==== RESPONSIVE ================ */
+@media (max-width: 480px) {
+    
+    
+        
+
+       
+}
+
+
+
+
+/* =======Boostrap========= */
+/* carousel */
+.TextCarousel{
+    color: rgb(255, 252, 252);
+    text-align: center;
+    font-size: 10.5rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+
+}
+.PCarousel{
+    color: rgb(255, 252, 252);
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+.TextCenterCard{
+    color: rgb(90, 128, 89);
+     text-align: center;
+    font-size: 6.5rem;
+    font-weight: 600;
+
+}
+.TittleCard{
+    color: rgb(90, 128, 89);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+.ParrCard{
+    color: rgb(90, 128, 89);
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: 'Inter', sans-serif;
+
+}
+.ButtonChN{
+    color: rgb(255, 255, 255);
+    background-color: rgb(90, 128, 89);;
+    font-weight: 600;
+}
+.ButtonForm{
+    color: rgb(255, 255, 255);
+    background-color: rgb(90, 128, 89);;
+    font-weight: 400;
+
+}
+.TextForm{
+    font-size: 2.5rem;
+    color: rgb(90, 128, 89);
+    font-weight: 400;
+
+}
+.ColorForm{
+    color: rgb(90, 128, 89);
+
+}
+.PCopyrightBoostrap{
+    font-size: 2.5re;
+    color: rgb(90, 128, 89);
+    margin: auto;
+    text-align: center;
+}
