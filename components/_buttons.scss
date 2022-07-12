@@ -1,0 +1,9 @@
+@import "../utilities/variables";
+
+.btnLogIn {
+    background-color: $colorMain;
+
+    & a {
+        color:rgb(215, 8, 8);
+    }
+}
